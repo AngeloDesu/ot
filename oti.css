@@ -1,0 +1,360 @@
+
+.navbar a:hover{
+background-color: SkyBlue;
+}
+.active{
+background-color: none;
+}
+h2 {
+  color: black;
+}
+p {
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#abtme{
+text-align: center;
+font-family: Arial, sans-serif;
+}
+.navbar li {
+margin: 0 5px;
+
+}
+.navbar li a{
+display: block;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: transparent;
+border: 0px solid black;
+text-decoration: none;
+color: black;
+font-size: 25px;
+font-family: Arial, sans-serif;
+}
+.int{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.img{
+border: none;
+width: 20%;
+margin: 0 auto;
+border-radius: 20%;
+text-align: center;
+}
+.img img {
+height: 300px;
+    width: auto;
+    border-radius: 15px;
+border: 0px solid black;
+box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.navbar {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 0;
+    background-color: white;
+    z-index: 999; 
+    border: 1px solid black;
+}
+
+.pg{
+font-family: Arial, sans-serif;
+font-size: 25px;
+}
+.ms{
+color: #4682B4;
+text-shadow: 1px 1px 0 black;
+
+}
+.ms1{
+color: white;
+text-shadow: 1px 1px 0 black;
+}
+.pc{
+margin-left: 250px; /* Adjust this value to control the distance */
+position: relative; 
+}
+.intro{
+color: white;
+text-align: center;
+font-family: Arial, sans-serif;
+text-decoration: none;
+font-weight: none;
+font-size: 16px;
+}
+.name{
+  color: black;
+  text-align: center;
+font-family: Arial, sans-serif;
+}
+.sicons{
+text-align: center;
+}
+.sicons a{
+color: black;
+font-size: 35px;
+margin-right: 10px;
+}
+.sicons a.facebook{
+color: #3b5998;
+}
+.sicons a.instagram {
+    color: #e4405f; 
+}
+
+.sicons a.linkedin {
+    color: #0077b5; 
+}
+
+.sicons a.github {
+    color: #171518; 
+}
+
+.sicons a.twitter {
+    color: #000000
+}
+#about{
+border: 1px solid black;
+}
+#home{
+border: 3px solid black;
+border-radius: 15px;
+background-color: transparent;
+place-items: center;
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+#hobby{
+border: 1px solid black;
+}
+#place{
+border: 1px solid black;
+}
+#map{
+text-align: left;
+margin-left: 635px;
+font-family: Arial, sans-serif;
+font-size: 25px;
+}
+.prof img{
+height: 300px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    margin-top: -300px;
+    margin-left: 5vw;
+position: absolute;
+}
+
+.pc #abtme{
+font-size: 40px;
+}
+.nm{
+color: white;
+text-shadow: 1px 1px 0 black;
+font-size: 40px;
+}
+#abt me{
+font-size: 40px;
+}
+
+body {
+  background-color: LightSteelBlue;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+html {
+scroll-behavior: smooth;
+
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  text-decoration: none;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+  width: 200px;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  color: #000;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+  background-color: #f0f8ff;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+  background: #4267B2;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #E1306C;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+  background: #ff0000;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+  background: #333;
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+background: #000000;
+}
+
+.wrapper .button .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+color: black;
+}
+
+.wrapper .button:hover .icon i {
+  color: #fff;
+}
+
+.wrapper .button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+  color: #4267B2;
+}
+
+.wrapper .button:nth-child(2) span {
+
+color: #E1306C;
+}
+
+.wrapper .button:nth-child(3) span {
+  
+ color: #ff0000;
+}
+
+.wrapper .button:nth-child(4) span {
+  color: #333;
+}
+
+.wrapper .button:nth-child(5) span {
+ 
+color: #000000;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
